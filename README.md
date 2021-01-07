@@ -1,4 +1,7 @@
 # Tesla-Stock-Analysis
+**Use Case Overview**
+This study report was submitted as a part of my 3rd semester mini-project.The model here has been developed considering the problem as a simple regression problem  laying emphasis on the analytical solution to the problem.
+
 **Objective-** \
 1.To describe and forecast the global prescriptive analytics market on the basis of components,
   data types, business functions, applications.\
@@ -7,14 +10,14 @@
 3.To track and analyze competitive developments such as mergers & acquisitions,
   new product developments, and partnerships & collaborations in the market.
 
-**Overview-** \
+**Data-Overview-** \
 The Dataset includes Tesla's stock price from initial public offering 06/29/2010 to 03/17/2017.
-The dataset has been obtained from Kaggle.com.The Project has been split into 3 sections namely-
+The dataset has been obtained from Kaggle.com.The Project has been split into 3 sections namely-\
 1.Descriptive Analysis\
 2.Predictive Analysis\
 3.Prescriptive Analysis
 
-**Descriptive Analysis-** \
+**Descriptive Analysis-** 
 
 1.Investors depend on stock analysis to find potentially profitable stocks.\
 \
