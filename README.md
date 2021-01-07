@@ -1,88 +1,88 @@
 # Tesla-Stock-Analysis
-Objective-
+**Objective-** \
 1.To describe and forecast the global prescriptive analytics market on the basis of components,
-  data types, business functions, applications.
+  data types, business functions, applications.\
 2.To strategically analyze subsegments with respect to 
-  individual growth trends,future prospects, and contribution to the total market.
+  individual growth trends,future prospects, and contribution to the total market.\
 3.To track and analyze competitive developments such as mergers & acquisitions,
-  new product developments, and partnerships & collaborations in the market.
+  new product developments, and partnerships & collaborations in the market.\
 
-Overview-
+**Overview-** \
 The Dataset includes Tesla's stock price from initial public offering 06/29/2010 to 03/17/2017.
 The dataset has been obtained from Kaggle.com.The Project has been split into 3 sections namely-
-1.Descriptive Analysis
-2.Predictive Analysis
-3.Prescriptive Analysis
+1.Descriptive Analysis\
+2.Predictive Analysis\
+3.Prescriptive Analysis\
 
-Descriptive Analysis-Observation-
+**Descriptive Analysis-** \
 
-1.Investors depend on stock analysis to find potentially profitable stocks.
+1.Investors depend on stock analysis to find potentially profitable stocks.\
+\
+The maximum profit per share booked in a single day: 20.51 Dollars\
+The change rate through that Day: 25.74 %\
+\
+The minimum profit booked per share in a single day: -20.77 Dollars\
+The change rate through that Day: -19.75 % \
+\
+2.Though The Price of the Share Has Gone up.The Profits have highly been unstable for the later part of the stock sess.\
+The exact same interpretation can be analyzed by manual analyzing the data\
+\
+The mean profit through all days is: 0.013\
+The standard Deviation viz a viz the mean is: 3.693\
+The Standard Deviation seems pretty high viz a viz the mean profit indicating high variablity in profit\
 
-The maximum profit per share booked in a single day: 20.51 Dollars
-The change rate through that Day: 25.74 %
+3.P/E Ratio\
+A common method to analyzing a stock is studying its price-to-earnings ratio.\
+We calculate the P/E ratio by dividing the stock’s market value per share by its earnings per share.\
+To determine the value of a stock, investors compare a stock’s  P/E ratio to those of its competitors and industry standards.\
+Lower P/E ratios are seen as favorable by investors.\
 
-The minimum profit booked per share in a single day: -20.77 Dollars
-The change rate through that Day: -19.75 % 
+P/E ratio in the year 1 0.51\
+P/E ratio in the year 2 0.95\
+P/E ratio in the year 3 2.27\
+P/E ratio in the year 4 6.67\
+P/E ratio in the year 5 6.88\
 
-2.Though The Price of the Share Has Gone up.The Profits have highly been unstable for the later part of the stock sess.
-The exact same interpretation can be analyzed by manual analyzing the data
-
-The mean profit through all days is: 0.013
-The standard Deviation viz a viz the mean is: 3.693
-The Standard Deviation seems pretty high viz a viz the mean profit indicating high variablity in profit
-
-3.P/E Ratio
-A common method to analyzing a stock is studying its price-to-earnings ratio.
-We calculate the P/E ratio by dividing the stock’s market value per share by its earnings per share.
-To determine the value of a stock, investors compare a stock’s  P/E ratio to those of its competitors and industry standards.
-Lower P/E ratios are seen as favorable by investors.
-
-P/E ratio in the year 1 0.51
-P/E ratio in the year 2 0.95
-P/E ratio in the year 3 2.27
-P/E ratio in the year 4 6.67
-P/E ratio in the year 5 6.88
-
-Refering to the above output the Return Rate Seems to be best in the year 1.
-During the 3rd,4th and 5th year the P/E ratio is not great.
-Hence it is really necessary to keep an eye on this stock to book profit.
+Refering to the above output the Return Rate Seems to be best in the year 1.\
+During the 3rd,4th and 5th year the P/E ratio is not great.\
+Hence it is really necessary to keep an eye on this stock to book profit.\
 
 4.Calculating PEG
-The price-to-earnings growth ratio takes the P/E ratio a step further by considering the growth of a company.
-To calculate the PEG, you divide the P/E ratio by the 12-month growth rate.
-You estimate the future growth rate by looking at the company’s historical growth rate.
-Investors typically consider a stock valuable if the PEG is lower than 1.
+The price-to-earnings growth ratio takes the P/E ratio a step further by considering the growth of a company.\
+To calculate the PEG, you divide the P/E ratio by the 12-month growth rate.\
+You estimate the future growth rate by looking at the company’s historical growth rate.\
+Investors typically consider a stock valuable if the PEG is lower than 1.\
 
-PEG ratio in the year 1 0.03
-PEG ratio in the year 2 0.09
-PEG ratio in the year 3 0.53
-PEG ratio in the year 4 4.44
-PEG ratio in the year 5 4.75
+PEG ratio in the year 1 0.03\
+PEG ratio in the year 2 0.09\
+PEG ratio in the year 3 0.53\
+PEG ratio in the year 4 4.44\
+PEG ratio in the year 5 4.75\
 
-Final Analysis
-1.The stock prices have always increased over a period of time
-2.From 3rd year onwards the stock has been pretty volatile,
-  hence requires a constant watch on the the prices in order to book Profit.
-3.The stock can be recommended to regular traders but not as a safe longtime investment
+**Final Analysis** \
+1.The stock prices have always increased over a period of time\
+2.From 3rd year onwards the stock has been pretty volatile,\
+  hence requires a constant watch on the the prices in order to book Profit.\
+3.The stock can be recommended to regular traders but not as a safe longtime investment\
 
 
-Predictive Analysis-Observation-
-1.Analysing the simplicity of Feature set of the given dataset,the best bet would be using simple Machine Learning Algorithms.
+**Predictive Analysis-** \
+1.Analysing the simplicity of Feature set of the given dataset,the best bet would be using simple Machine Learning Algorithms.\
 2.We have restricted ourselves from using LSTM's or other DeepNeural Networks owing to manual feature selection 
-  and computation cost. 
-3.Due to strong correlation among all the features we mainly use the Adj.Close as a training feature viz a viz Dates.
-4.The model aims at predicting the stock prices over next 30 days using LinearRegression(sklearn) or Random Forest
-5.The stock prices are forecasted and plotted with the close price of yesteryears.
-6.The Prescriptive Analysis is to done on the Forecasted Price for a successful investment.
+  and computation cost. \
+3.Due to strong correlation among all the features we mainly use the Adj.Close as a training feature viz a viz Dates.\
+4.The model aims at predicting the stock prices over next 30 days using LinearRegression(sklearn) or Random Forest\
+5.The stock prices are forecasted and plotted with the close price of yesteryears.\
+6.The Prescriptive Analysis is to done on the Forecasted Price for a successful investment.\
 
-Prescriptive Analysis-
-1.The Descriptive Analysis reports a constant growth in prices of the IPO,suggesting a safe buy.
+**Prescriptive Analysis-** \
+1.The Descriptive Analysis reports a constant growth in prices of the IPO,suggesting a safe buy.\
   
 2.The First 15 days of the Predicted Prices show a steady growth,during which the investors book heavy profits.
-  The above could be an effect of a successful product launch a merger or could be a steady decline in liablities.
+  The above could be an effect of a successful product launch a merger or could be a steady decline in liablities.\
  
-3.During the next 15 days the stock prices observe a change in pattern and there is a decrease in IPO cost 
-  which could be owing to investors booking profit,a failed product,change in Government Policy or extensive competition.
+3.During the next 15 days the stock prices observe a change in pattern and there is a decrease in IPO cost\ 
+  which could be owing to investors booking profit,a failed product,change in Government Policy or extensive competition.\
 
 4.The decrease in stock price presents an oppurtunity to invest in the organisation,by taking a calculated risk owning to 
-  the successful history of Tesla. 
+  the successful history of Tesla.\ 
